@@ -54,9 +54,23 @@ Hi there! I'm **Mohamed Aiman**, a Google Apps Script developer and currently th
 ## <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOTZjNjFkYTMyODEyZDNjMzM0NTRmZjY5ZWM0OTRkMzliZjJmZmNhYiZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/W5eoZHPpUx9sapR0eu/giphy.gif" width="30"> GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Darkguyaiman&theme=radical&hide_border=true&include_all_commits=false&count_private=false&show_icons=true&bg_color=0D1117" width="49%" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Darkguyaiman&theme=radical&hide_border=true&background=0D1117" width="49%" alt="GitHub Streak" />
+  <img 
+    src="https://github-readme-stats.vercel.app/api?username=Darkguyaiman&theme=radical&hide_border=false&include_all_commits=false&count_private=false&show_icons=true" 
+    width="49%" 
+    style="vertical-align: top;" 
+    alt="GitHub Stats" 
+  />
+  <img 
+    src="https://nirzak-streak-stats.vercel.app/?user=Darkguyaiman&theme=radical&hide_border=false" 
+    width="49%" 
+    style="vertical-align: top;"
+    alt="GitHub Streak" 
+  />
 </div>
+
+
+
+
 
 
 ## <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjFmMzU5YzY0ZDdhNGVkYTY2NzQ0Y2JjYTUxMjYwNjhmNmMwMTRlNyZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/VgCDAzcKvsR6OM0uWg/giphy.gif" width="30"> Dev Quote
