@@ -1,21 +1,70 @@
-# 💫 About Me:
-Hi there! My name is Mohamed Aiman. I'm a Google Apps Script developer and currently the Co-Founder of Backpack Tech Works which is a software house specializing in:<br><br>🌐 Web Development<br><br>📱 Mobile App Development<br><br>⚙️ Google Apps Script Solutions<br><br>🎨 UI/UX Design & Branding Support<br><br>🎓 I'm also a diploma student in Information Technology, passionate about building useful tools, collaborating on real-world projects, and contributing to the dev community.<br><br>🚀 If you're an Apps Script developer too, feel free to explore my free and open-source SDKs. I designed it to help you integrate and deploy faster in your projects.
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3498db,100:8e44ad&height=200&section=header&text=Mohamed%20Aiman&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Google%20Apps%20Script%20Developer%20|%20Co-Founder%20@%20Backpack%20Tech%20Works&descAlignY=55&descAlign=50" width="100%" />
+
+  <a href="https://facebook.com/darkguyaiman"><img src="https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white" alt="Facebook"></a>
+  <a href="https://instagram.com/darkguyaiman"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white" alt="Instagram"></a>
+  <a href="https://linkedin.com/in/mohamed-aiman-7365701ba"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://x.com/Mohamed61660403"><img src="https://img.shields.io/badge/X-black.svg?style=for-the-badge&logo=X&logoColor=white" alt="X"></a>
+  <a href="mailto:mohamedaiman103@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  
+  <img src="https://komarev.com/ghpvc/?username=Darkguyaiman&style=for-the-badge&color=blueviolet" alt="Profile Views" />
+</div>
+
+<br />
+
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=3000&pause=1000&color=8E44AD&center=true&vCenter=true&width=600&lines=Google+Apps+Script+Developer;Co-Founder+@+Backpack+Tech+Works;Web+%26+Mobile+App+Developer;UI%2FUX+Designer;Always+Learning+New+Technologies" alt="Typing SVG" />
+</div>
+
+## <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmQ3MzBmMzZhZDk2MzVkMzFhYTQ5ZDY5MzEzNzNmNGIyZTBkYjk5ZCZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/iY8CRBdQXODJSCERIr/giphy.gif" width="30"> About Me
+
+<img align="right" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" width="300" />
+
+Hi there! I'm **Mohamed Aiman**, a Google Apps Script developer and currently the Co-Founder of **Backpack Tech Works** - a software house specializing in:
+
+- <img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="20"> **Web Development**
+- <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjM4NWFiMzM0ZDY2ZTJlZmNmMzYzYjYzODg4ZmEyMDliZDY1MWJjYiZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/SWoSkN6DxTszqIKEqv/giphy.gif" width="20"> **Mobile App Development**
+- <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjM2ZjY0ZmY4YzRkNTg1MjQ5ZTRhYzEzY2NkOTIxYWI0MjExMmM4ZiZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/juua9i2c2fA0AIp2iq/giphy.gif" width="20"> **Google Apps Script Solutions**
+- <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDJmNjJmMzU3MjQ5ZDY0MjRiZDY1ZWJjYzM3NmYxZDI4YjYxYjM0ZCZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/XwBzLXzYq7ljHBXkHW/giphy.gif" width="20"> **UI/UX Design & Branding Support**
+
+🎓 I'm also a diploma student in Information Technology, passionate about building useful tools, collaborating on real-world projects, and contributing to the dev community.
+
+🔥 If you're an Apps Script developer too, feel free to explore my free and open-source SDKs. I designed them to help you integrate and deploy faster in your projects.
+
+<br clear="right"/>
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+</div>
+
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="30"> Tech Stack
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,python,googlecloud&theme=dark" />
+  <br>
+  <img src="https://skillicons.dev/icons?i=tailwind,bootstrap,jquery,angular,vue&theme=dark" />
+  <br>
+  <img src="https://skillicons.dev/icons?i=photoshop,premiere,vscode&theme=dark" />
+</div>
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+</div>
+
+## <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOTZjNjFkYTMyODEyZDNjMzM0NTRmZjY5ZWM0OTRkMzliZjJmZmNhYiZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/W5eoZHPpUx9sapR0eu/giphy.gif" width="30"> GitHub Stats
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Darkguyaiman&theme=radical&hide_border=true&include_all_commits=false&count_private=false&show_icons=true&bg_color=0D1117" width="49%" alt="GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Darkguyaiman&theme=radical&hide_border=true&background=0D1117" width="49%" alt="GitHub Streak" />
+</div>
 
 
-## 🌐 Socials:
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/darkguyaiman) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/darkguyaiman) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/mohamed-aiman-7365701ba) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/Mohamed61660403) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:mohamedaiman103@gmail.com) 
+## <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjFmMzU5YzY0ZDdhNGVkYTY2NzQ0Y2JjYTUxMjYwNjhmNmMwMTRlNyZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/VgCDAzcKvsR6OM0uWg/giphy.gif" width="30"> Dev Quote
 
-# 💻 Tech Stack:
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Angular.js](https://img.shields.io/badge/angular.js-%23E23237.svg?style=for-the-badge&logo=angularjs&logoColor=white) ![Chart.js](https://img.shields.io/badge/chart.js-F5788D.svg?style=for-the-badge&logo=chart.js&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Adobe Premiere Pro](https://img.shields.io/badge/Adobe%20Premiere%20Pro-9999FF.svg?style=for-the-badge&logo=Adobe%20Premiere%20Pro&logoColor=white) ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=for-the-badge&logo=windows-terminal&logoColor=white) ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![Vue.js](https://img.shields.io/badge/vue.js-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![Google Apps Script](https://img.shields.io/badge/Google%20Apps%20Script-%234285F4?style=for-the-badge&logo=google&logoColor=white)
+<div align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" width="70%" alt="Dev Quote" />
+</div>
 
-
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=Darkguyaiman&theme=gruvbox&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=Darkguyaiman&theme=gruvbox&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Darkguyaiman&theme=gruvbox&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
-
-### ✍️ Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
----
-[![](https://visitcount.itsvg.in/api?id=Darkguyaiman&icon=0&color=0)](https://visitcount.itsvg.in)
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Trilokia/Trilokia/379277808c61ef204768a61bbc5d25bc7798ccf1/bottom_header.svg" width="100%">
+</div>
