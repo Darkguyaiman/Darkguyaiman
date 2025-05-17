@@ -13,7 +13,7 @@
 <br />
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=3000&pause=1000&color=8E44AD&center=true&vCenter=true&width=600&lines=Google+Apps+Script+Developer;Co-Founder+@+Backpack+Tech+Works;Web+%26+Mobile+App+Developer;UI%2FUX+Designer;Always+Learning+New+Technologies" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=3000&pause=1000&color=8E44AD&center=true&vCenter=true&width=600&lines=Google+Apps+Script+Developer;Co-Founder+%40+Backpack+Tech+Works;Always+Learning+New+Technologies;Making+Spreadsheets+Come+Alive;Code+That+Works%2C+Solutions+That+Scale" alt="Typing SVG" />
 </div>
 
 ## <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmQ3MzBmMzZhZDk2MzVkMzFhYTQ5ZDY5MzEzNzNmNGIyZTBkYjk5ZCZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/iY8CRBdQXODJSCERIr/giphy.gif" width="30"> About Me
@@ -44,7 +44,7 @@ Hi there! I'm **Mohamed Aiman**, a Google Apps Script developer and currently th
   <br>
   <img src="https://skillicons.dev/icons?i=tailwind,bootstrap,jquery,angular,vue&theme=dark" />
   <br>
-  <img src="https://skillicons.dev/icons?i=photoshop,premiere,vscode&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=photoshop,premiere,powershell&theme=dark" />
 </div>
 
 <div align="center">
