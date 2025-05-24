@@ -29,7 +29,7 @@ Hi there! I'm **Mohamed Aiman**, a Google Apps Script developer and currently th
 
 🎓 I'm also a diploma student in Information Technology, passionate about building useful tools, collaborating on real-world projects, and contributing to the dev community.
 
-🔥 If you're an Apps Script developer too, feel free to explore my free and open-source SDKs. I designed them to help you integrate and deploy faster in your projects.
+🔥 If you're an Apps Script developer too, feel free to explore my free and open-source starter kits. I designed them to help you integrate and deploy faster in your projects.
 
 <br clear="right"/>
 
