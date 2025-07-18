@@ -51,7 +51,9 @@ Hi there! I'm **Mohamed Aiman**, a Google Apps Script developer and currently th
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 </div>
 
+
 ## <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOTZjNjFkYTMyODEyZDNjMzM0NTRmZjY5ZWM0OTRkMzliZjJmZmNhYiZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/W5eoZHPpUx9sapR0eu/giphy.gif" width="30"> GitHub Stats
+<div align="center">
   <img 
     src="https://nirzak-streak-stats.vercel.app/?user=Darkguyaiman&theme=radical&hide_border=false" 
     width="49%" 
