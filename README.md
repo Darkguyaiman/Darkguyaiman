@@ -1,6 +1,6 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3498db,100:8e44ad&height=200&section=header&text=Mohamed%20Aiman&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Google%20Apps%20Script%20Developer%20|%20Co-Founder%20@%20Backpack%20Tech%20Works&descAlignY=55&descAlign=50" width="100%" />
-
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:C51D34,100:2E2E30&height=200&section=header&text=Mohamed%20Aiman&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Google%20Apps%20Script%20Developer%20|%20Co-Founder%20@%20Backpack%20Tech%20Works&descAlignY=55&descAlign=50" width="100%" />
+  
   <a href="https://facebook.com/darkguyaiman"><img src="https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white" alt="Facebook"></a>
   <a href="https://instagram.com/darkguyaiman"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white" alt="Instagram"></a>
   <a href="https://linkedin.com/in/mohamed-aiman-7365701ba"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
@@ -74,5 +74,6 @@ Hi there! I'm **Mohamed Aiman**, a Google Apps Script developer and currently th
 </div>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Trilokia/Trilokia/379277808c61ef204768a61bbc5d25bc7798ccf1/bottom_header.svg" width="100%">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2E2E30,100:C51D34&height=150&section=footer&fontColor=ffffff" width="100%" />
 </div>
+
