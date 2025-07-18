@@ -6,8 +6,6 @@
   <a href="https://linkedin.com/in/mohamed-aiman-7365701ba"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="https://x.com/MohamedAiman103"><img src="https://img.shields.io/badge/X-black.svg?style=for-the-badge&logo=X&logoColor=white" alt="X"></a>
   <a href="mailto:mohamedaiman103@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-  
-  <img src="https://komarev.com/ghpvc/?username=Darkguyaiman&style=for-the-badge&color=blueviolet" alt="Profile Views" />
 </div>
 
 <br />
