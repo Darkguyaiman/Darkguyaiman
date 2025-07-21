@@ -25,9 +25,9 @@ Hi there! I'm **Mohamed Aiman**, a Google Apps Script developer and currently th
 - <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjM2ZjY0ZmY4YzRkNTg1MjQ5ZTRhYzEzY2NkOTIxYWI0MjExMmM4ZiZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/juua9i2c2fA0AIp2iq/giphy.gif" width="20"> **Google Apps Script Solutions**
 - <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDJmNjJmMzU3MjQ5ZDY0MjRiZDY1ZWJjYzM3NmYxZDI4YjYxYjM0ZCZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/XwBzLXzYq7ljHBXkHW/giphy.gif" width="20"> **UI/UX Design & Branding Support**
 
-🎓 I'm also a diploma student in Information Technology, passionate about building useful tools, collaborating on real-world projects, and contributing to the dev community.
+I'm also a diploma student in Information Technology, passionate about building useful tools, collaborating on real-world projects, and contributing to the dev community.
 
-🔥 If you're an Apps Script developer too, feel free to explore my free and open-source starter kits. I designed them to help you integrate and deploy faster in your projects.
+If you're an Apps Script developer too, feel free to explore my free and open-source starter kits. I designed them to help you integrate and deploy faster in your projects.
 
 <br clear="right"/>
 
