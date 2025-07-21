@@ -37,7 +37,7 @@ If you're an Apps Script developer too, feel free to explore my free and open-so
 
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="30"> Tech Stack
 
-<div align="center">
+<div align="left">
   <img src="https://skillicons.dev/icons?i=html,css,js,python,googlecloud&theme=dark" />
   <br>
   <img src="https://skillicons.dev/icons?i=tailwind,bootstrap,jquery,angular,vue&theme=dark" />
@@ -51,7 +51,7 @@ If you're an Apps Script developer too, feel free to explore my free and open-so
 
 
 ## <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOTZjNjFkYTMyODEyZDNjMzM0NTRmZjY5ZWM0OTRkMzliZjJmZmNhYiZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/W5eoZHPpUx9sapR0eu/giphy.gif" width="30"> GitHub Stats
-<div align="center">
+<div align="left">
   <img 
     src="https://nirzak-streak-stats.vercel.app/?user=Darkguyaiman&theme=radical&hide_border=false" 
     width="49%" 
@@ -67,7 +67,7 @@ If you're an Apps Script developer too, feel free to explore my free and open-so
 
 ## <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjFmMzU5YzY0ZDdhNGVkYTY2NzQ0Y2JjYTUxMjYwNjhmNmMwMTRlNyZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/VgCDAzcKvsR6OM0uWg/giphy.gif" width="30"> Dev Quote
 
-<div align="center">
+<div align="left">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" width="70%" alt="Dev Quote" />
 </div>
 
