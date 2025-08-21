@@ -42,7 +42,7 @@ If you're an Apps Script developer too, feel free to explore my free and open-so
   <br>
   <img src="https://skillicons.dev/icons?i=tailwind,bootstrap,jquery,angular,vue&theme=dark" />
   <br>
-  <img src="https://skillicons.dev/icons?i=photoshop,premiere,powershell&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=photoshop,premiere,figma,powershell&theme=dark" />
 </div>
 
 <div align="center">
