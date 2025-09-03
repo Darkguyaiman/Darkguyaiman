@@ -60,11 +60,6 @@ If you're an Apps Script developer too, feel free to explore my free and open-so
   />
 </div>
 
-
-
-
-
-
 ## <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjFmMzU5YzY0ZDdhNGVkYTY2NzQ0Y2JjYTUxMjYwNjhmNmMwMTRlNyZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/VgCDAzcKvsR6OM0uWg/giphy.gif" width="30"> Dev Quote
 
 <div align="left">
