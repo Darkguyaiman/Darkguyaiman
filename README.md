@@ -38,10 +38,11 @@ If you're an Apps Script developer too, feel free to explore my free and open-so
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="30"> Tech Stack
 
 <div align="left">
-  <img src="https://skillicons.dev/icons?i=html,css,js,python,googlecloud&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,googlecloud,nodejs,python&theme=dark" />
   <br>
-  <img src="https://skillicons.dev/icons?i=tailwind,bootstrap,jquery,angular,vue&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=tailwind,bootstrap,jquery,angular,vue,express&theme=dark" />
   <br>
+  <img width="52" />
   <img src="https://skillicons.dev/icons?i=photoshop,premiere,figma,powershell&theme=dark" />
 </div>
 
