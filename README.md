@@ -40,7 +40,7 @@ If you're an Apps Script developer too, feel free to explore my free and open-so
 <div align="left">
   <img src="https://skillicons.dev/icons?i=html,css,js,googlecloud,nodejs,python&theme=dark" />
   <br>
-  <img src="https://skillicons.dev/icons?i=tailwind,bootstrap,jquery,angular,vue,express&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=tailwind,bootstrap,jquery,vue,express,mysql&theme=dark" />
   <br>
   <img width="52" />
   <img src="https://skillicons.dev/icons?i=photoshop,premiere,figma,powershell&theme=dark" />
