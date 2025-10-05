@@ -18,7 +18,7 @@
 
 <img align="right" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" width="300" />
 
-Hellow there! I'm **Mohamed Aiman**, a Google Apps Script developer and currently the Co-Founder of **Backpack Tech Works** - a software house specializing in:
+Hellow there! I'm **Mohamed Aiman**, I am a Web Developer and currently the Co-Founder of **Backpack Tech Works** - a software house specializing in:
 
 - <img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="20"> **Web Development**
 - <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjM4NWFiMzM0ZDY2ZTJlZmNmMzYzYjYzODg4ZmEyMDliZDY1MWJjYiZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/SWoSkN6DxTszqIKEqv/giphy.gif" width="20"> **Mobile App Development**
@@ -27,7 +27,7 @@ Hellow there! I'm **Mohamed Aiman**, a Google Apps Script developer and currentl
 
 I'm also a diploma student in Information Technology, passionate about building useful tools, collaborating on real-world projects, and contributing to the dev community.
 
-If you're an Apps Script developer too, feel free to explore my free and open-source starter kits. I designed them to help you integrate and deploy faster in your projects.
+If you're an Apps Script developer, feel free to explore my free and open-source starter kits for App Script. I designed them to help you integrate and deploy faster in your projects.
 
 <br clear="right"/>
 
