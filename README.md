@@ -1,11 +1,25 @@
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:C51D34,100:2E2E30&height=200&section=header&text=Hellow%20It's%20Mohamed%20Aiman&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Web%20Developer%20|%20Co-Founder%20@%20Backpack%20Tech%20Works&descAlignY=55&descAlign=50" width="100%" />
-  
-  <a href="https://facebook.com/darkguyaiman"><img src="https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white" alt="Facebook"></a>
-  <a href="https://instagram.com/darkguyaiman"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white" alt="Instagram"></a>
-  <a href="https://linkedin.com/in/mohamed-aiman-7365701ba"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://x.com/MohamedAiman103"><img src="https://img.shields.io/badge/X-black.svg?style=for-the-badge&logo=X&logoColor=white" alt="X"></a>
-  <a href="mailto:mohamedaiman103@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+
+<a href="https://darkguyaiman.github.io/My-Portfolio/">
+  <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio">
+</a>
+<a href="https://facebook.com/darkguyaiman">
+  <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook">
+</a>
+<a href="https://instagram.com/darkguyaiman">
+  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram">
+</a>
+<a href="https://linkedin.com/in/mohamed-aiman-7365701ba">
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+</a>
+<a href="https://x.com/MohamedAiman103">
+  <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X">
+</a>
+<a href="mailto:mohamedaiman103@gmail.com">
+  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+</a>
+
 </div>
 
 <br />
