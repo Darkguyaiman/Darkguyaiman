@@ -56,8 +56,7 @@ If you're an Apps Script developer, feel free to explore my free and open-source
   <br>
   <img src="https://skillicons.dev/icons?i=tailwind,bootstrap,jquery,vue,express,mysql&theme=dark" />
   <br>
-  <img width="52" />
-  <img src="https://skillicons.dev/icons?i=photoshop,premiere,figma,powershell,ubuntu&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=photoshop,premiere,figma,powershell,ubuntu,nginx&theme=dark" />
 </div>
 
 <div align="center">
