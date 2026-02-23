@@ -57,7 +57,7 @@ If you're an Apps Script developer, feel free to explore my free and open-source
   <img src="https://skillicons.dev/icons?i=tailwind,bootstrap,jquery,vue,express,mysql&theme=dark" />
   <br>
   <img width="52" />
-  <img src="https://skillicons.dev/icons?i=photoshop,premiere,figma,powershell&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=photoshop,premiere,figma,powershell,ubuntu&theme=dark" />
 </div>
 
 <div align="center">
@@ -67,7 +67,7 @@ If you're an Apps Script developer, feel free to explore my free and open-source
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="30"> Things I am adding to my Tech Stack
 
 <div align="left">
-  <img src="https://skillicons.dev/icons?i=react,nextjs,vercel,laravel,ubuntu,ts,php,deno&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=react,nextjs,vercel,laravel,ts,php,deno&theme=dark" />
   <br>
 </div>
 
