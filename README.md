@@ -78,7 +78,7 @@ If you're an Apps Script developer, feel free to explore my free and open-source
 ## <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOTZjNjFkYTMyODEyZDNjMzM0NTRmZjY5ZWM0OTRkMzliZjJmZmNhYiZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/W5eoZHPpUx9sapR0eu/giphy.gif" width="30"> GitHub Stats
 <div align="left">
   <img 
-    src="https://nirzak-streak-stats.vercel.app/?user=Darkguyaiman&theme=radical&hide_border=false" 
+    src="https://github-readme-streak-stats.herokuapp.com/?user=Darkguyaiman&theme=radical&hide_border=false" 
     width="49%" 
     style="vertical-align: top;"
     alt="GitHub Streak" 
