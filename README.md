@@ -76,7 +76,7 @@ If you're an Apps Script developer, feel free to explore my free and open-source
 
 
 ## <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOTZjNjFkYTMyODEyZDNjMzM0NTRmZjY5ZWM0OTRkMzliZjJmZmNhYiZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/W5eoZHPpUx9sapR0eu/giphy.gif" width="30"> GitHub Stats
-![GitHub Streak](https://streak-stats.demolab.com?user=Darkguyaiman&theme=radical)
+![GitHub Stats](https://ghstats.dev/api/card?username=Darkguyaiman&theme=radical)
 
 ## <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjFmMzU5YzY0ZDdhNGVkYTY2NzQ0Y2JjYTUxMjYwNjhmNmMwMTRlNyZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/VgCDAzcKvsR6OM0uWg/giphy.gif" width="30"> Dev Quote
 
