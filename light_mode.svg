@@ -62,9 +62,9 @@ text, tspan {white-space: pre;}
 <tspan x="500" y="350">- Contact</tspan> -——————————————————————————————————————————————-—-
 <tspan x="500" y="370" class="cc">. </tspan><tspan class="key">Email</tspan>:<tspan class="cc"> ...................... </tspan><tspan class="value">mohamedaiman103@gmail.com</tspan>
 <tspan x="500" y="390" class="cc">. </tspan><tspan class="key">Portfolio</tspan>:<tspan class="cc"> .................. </tspan><tspan class="value">darkguyaiman.com</tspan>
-<tspan x="500" y="410" class="cc">. </tspan><tspan class="key">LinkedIn</tspan>:<tspan class="cc"> ................... </tspan><tspan class="value">mohamed-aiman-7365701ba</tspan>
+<tspan x="500" y="410" class="cc">. </tspan><tspan class="key">LinkedIn</tspan>:<tspan class="cc"> ................... </tspan><tspan class="value">darkguyaiman</tspan>
 <tspan x="500" y="430" class="cc">. </tspan><tspan class="key">Instagram</tspan>:<tspan class="cc"> .................. </tspan><tspan class="value">darkguyaiman</tspan>
-<tspan x="500" y="450" class="cc">. </tspan><tspan class="key">X (Twitter)</tspan>:<tspan class="cc"> ................ </tspan><tspan class="value">MohamedAiman103</tspan>
+<tspan x="500" y="450" class="cc">. </tspan><tspan class="key">X (Twitter)</tspan>:<tspan class="cc"> ................ </tspan><tspan class="value">thedarkguyaiman</tspan>
 <tspan x="500" y="490">- GitHub Stats</tspan> -—————————————————————————————————————————-—-
 <tspan x="500" y="510" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc" id="repo_data_dots"> .... </tspan><tspan class="value" id="repo_data">32</tspan> {<tspan class="key">Contributed</tspan>: <tspan class="value" id="contrib_data">44</tspan>} | <tspan class="key">Stars</tspan>:<tspan class="cc" id="star_data_dots"> ............. </tspan><tspan class="value" id="star_data">8</tspan>
 <tspan x="500" y="530" class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc" id="commit_data_dots"> ................. </tspan><tspan class="value" id="commit_data">4,129</tspan> | <tspan class="key">Followers</tspan>:<tspan class="cc" id="follower_data_dots"> ........ </tspan><tspan class="value" id="follower_data">44</tspan>
