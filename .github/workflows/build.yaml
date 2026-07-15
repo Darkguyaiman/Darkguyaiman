@@ -3,6 +3,12 @@ on:
   push:
     branches:
       - main
+    paths-ignore:
+      - 'dark_mode.svg'
+      - 'light_mode.svg'
+      - 'README.md'
+      - 'CURRENT_README.MD'
+      - 'cache/**'
   schedule:
     - cron: "0 4 * * *"
 jobs:
