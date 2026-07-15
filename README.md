@@ -9,7 +9,7 @@
   <br /><br />
 
   <a href="https://ko-fi.com/darkguyaiman" target="_blank">
-    <img src="https://img.shields.io/badge/Buy%20me%20a%20coffee-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Ko-fi" />
+    <img src="https://img.shields.io/badge/Ko--fi-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Ko-fi" />
   </a>
   &nbsp;&nbsp;
   <a href="https://paypal.me/thedarkguyaiman" target="_blank">
