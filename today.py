@@ -12,7 +12,7 @@ import hashlib
 # Issues and pull requests permissions not needed at the moment, but may be used in the future
 HEADERS = {'authorization': 'token '+ os.environ['ACCESS_TOKEN']}
 USER_NAME = os.environ.get('USER_NAME', 'Darkguyaiman')
-QUERY_COUNT = {'user_getter': 0, 'follower_getter': 0, 'graph_repos_stars': 0, 'recursive_loc': 0, 'graph_commits': 0, 'loc_query': 0}
+QUERY_COUNT = {'user_getter': 0, 'follower_getter': 0, 'graph_repos_stars': 0, 'recursive_loc': 0, 'graph_commits': 0, 'loc_query': 0, 'graph_streak': 0}
 
 
 def daily_readme(birthday):
@@ -68,6 +68,60 @@ def graph_commits(start_date, end_date):
     variables = {'start_date': start_date,'end_date': end_date, 'login': USER_NAME}
     request = simple_request(graph_commits.__name__, query, variables)
     return int(request.json()['data']['user']['contributionsCollection']['contributionCalendar']['totalContributions'])
+
+
+def graph_streak():
+    """
+    Uses GitHub's GraphQL v4 API to fetch the contribution calendar and calculate the current streak.
+    """
+    query_count('graph_streak')
+    query = '''
+    query($login: String!) {
+        user(login: $login) {
+            contributionsCollection {
+                contributionCalendar {
+                    weeks {
+                        contributionDays {
+                            contributionCount
+                            date
+                        }
+                    }
+                }
+            }
+        }
+    }'''
+    variables = {'login': USER_NAME}
+    request = simple_request(graph_streak.__name__, query, variables)
+    weeks = request.json()['data']['user']['contributionsCollection']['contributionCalendar']['weeks']
+    
+    days = []
+    for week in weeks:
+        for day in week['contributionDays']:
+            days.append(day)
+            
+    days.sort(key=lambda x: x['date'])
+    reversed_days = list(reversed(days))
+    
+    current_streak = 0
+    if len(reversed_days) > 0:
+        # Check if the most recent day has 0 contributions
+        if reversed_days[0]['contributionCount'] == 0:
+            # If the user hasn't contributed today, the streak is still active
+            # if they contributed yesterday.
+            if len(reversed_days) > 1 and reversed_days[1]['contributionCount'] > 0:
+                start_idx = 1
+            else:
+                return 0
+        else:
+            start_idx = 0
+            
+        for i in range(start_idx, len(reversed_days)):
+            if reversed_days[i]['contributionCount'] > 0:
+                current_streak += 1
+            else:
+                break
+                
+    return current_streak
 
 
 def graph_repos_stars(count_type, owner_affiliation, cursor=None, add_loc=0, del_loc=0):
@@ -316,15 +370,15 @@ def stars_counter(data):
     return total_stars
 
 
-def svg_overwrite(filename, age_data, commit_data, star_data, repo_data, contrib_data, follower_data, loc_data):
+def svg_overwrite(filename, age_data, commit_data, streak_data, repo_data, contrib_data, follower_data, loc_data):
     """
-    Parse SVG files and update elements with my age, commits, stars, repositories, and lines written
+    Parse SVG files and update elements with my age, commits, streak, repositories, and lines written
     """
     tree = etree.parse(filename)
     root = tree.getroot()
     justify_format(root, 'age_data', age_data, 48)
     justify_format(root, 'commit_data', commit_data, 22)
-    justify_format(root, 'star_data', star_data, 14)
+    justify_format(root, 'streak_data', streak_data, 13)
     justify_format(root, 'repo_data', repo_data, 6)
     justify_format(root, 'contrib_data', contrib_data)
     justify_format(root, 'follower_data', follower_data, 10)
@@ -452,19 +506,20 @@ if __name__ == '__main__':
     total_loc, loc_time = perf_counter(loc_query, ['OWNER', 'COLLABORATOR', 'ORGANIZATION_MEMBER'], 7)
     formatter('LOC (cached)', loc_time) if total_loc[-1] else formatter('LOC (no cache)', loc_time)
     commit_data, commit_time = perf_counter(commit_counter, 7)
-    star_data, star_time = perf_counter(graph_repos_stars, 'stars', ['OWNER'])
+    streak_data, streak_time = perf_counter(graph_streak)
+    streak_data = f"{streak_data} day{format_plural(streak_data)}"
     repo_data, repo_time = perf_counter(graph_repos_stars, 'repos', ['OWNER'])
     contrib_data, contrib_time = perf_counter(graph_repos_stars, 'repos', ['OWNER', 'COLLABORATOR', 'ORGANIZATION_MEMBER'])
     follower_data, follower_time = perf_counter(follower_getter, USER_NAME)
 
     for index in range(len(total_loc)-1): total_loc[index] = '{:,}'.format(total_loc[index]) # format added, deleted, and total LOC
 
-    svg_overwrite('dark_mode.svg', age_data, commit_data, star_data, repo_data, contrib_data, follower_data, total_loc[:-1])
-    svg_overwrite('light_mode.svg', age_data, commit_data, star_data, repo_data, contrib_data, follower_data, total_loc[:-1])
+    svg_overwrite('dark_mode.svg', age_data, commit_data, streak_data, repo_data, contrib_data, follower_data, total_loc[:-1])
+    svg_overwrite('light_mode.svg', age_data, commit_data, streak_data, repo_data, contrib_data, follower_data, total_loc[:-1])
 
     # move cursor to override 'Calculation times:' with 'Total function time:' and the total function time, then move cursor back
     print('\033[F\033[F\033[F\033[F\033[F\033[F\033[F\033[F',
-        '{:<21}'.format('Total function time:'), '{:>11}'.format('%.4f' % (user_time + age_time + loc_time + commit_time + star_time + repo_time + contrib_time)),
+        '{:<21}'.format('Total function time:'), '{:>11}'.format('%.4f' % (user_time + age_time + loc_time + commit_time + streak_time + repo_time + contrib_time)),
         ' s \033[E\033[E\033[E\033[E\033[E\033[E\033[E\033[E', sep='')
 
     print('Total GitHub GraphQL API calls:', '{:>3}'.format(sum(QUERY_COUNT.values())))
