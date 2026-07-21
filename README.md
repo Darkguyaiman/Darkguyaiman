@@ -15,4 +15,6 @@
   <a href="https://paypal.me/thedarkguyaiman" target="_blank">
     <img src="https://img.shields.io/badge/Donate%20via%20PayPal-003087?style=for-the-badge&logo=paypal&logoColor=white" alt="PayPal" />
   </a>
+
+  ☕ If my projects or tools have helped you, consider supporting my work
 </div>
