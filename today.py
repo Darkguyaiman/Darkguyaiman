@@ -2,6 +2,7 @@ import datetime as dt
 import hashlib
 import json
 import os
+import re
 import time
 import urllib.error
 import urllib.request
@@ -369,6 +370,21 @@ def svg_overwrite(filename, age_data, commit_data, streak_data, repo_data, contr
     tree.write(filename, encoding="utf-8", xml_declaration=True)
 
 
+def update_readme_cache_buster(filename="README.md"):
+    readme = Path(filename)
+    version = os.environ.get("GITHUB_RUN_ID")
+    if not version:
+        version = dt.datetime.now(dt.timezone.utc).strftime("%Y%m%d%H%M%S")
+
+    content = readme.read_text(encoding="utf-8")
+    content = re.sub(
+        r"(raw\.githubusercontent\.com/Darkguyaiman/Darkguyaiman/main/(?:dark_mode|light_mode)\.svg)\?v=[^\"'>\s]+",
+        rf"\1?v={version}",
+        content,
+    )
+    readme.write_text(content, encoding="utf-8")
+
+
 def justify_format(root, element_id, new_text, length=0):
     if isinstance(new_text, int):
         new_text = f"{new_text:,}"
@@ -454,6 +470,7 @@ if __name__ == "__main__":
         overview["followers"],
         formatted_loc,
     )
+    update_readme_cache_buster()
 
     total_time = overview_time + age_time + loc_time + commit_time
     print(f"Total function time: {total_time:.4f} s")

@@ -40,7 +40,7 @@ jobs:
 
       - name: Commit
         run: |-
-          git add dark_mode.svg light_mode.svg cache
+          git add README.md dark_mode.svg light_mode.svg cache
           git diff --cached --quiet && exit 0
           git diff --cached
           git config --global user.email "github-actions-bot@darkguyaiman.github.io"
