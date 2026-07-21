@@ -1,4 +1,5 @@
 name: README build
+
 on:
   push:
     branches:
@@ -12,37 +13,37 @@ on:
   schedule:
     - cron: "0 4 * * *"
   workflow_dispatch:
+
+concurrency:
+  group: readme-build-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 1
           token: ${{ secrets.ACCESS_TOKEN }}
-      - name: Get Python 3.8
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.8'
-      - name: Configure pip cache
-        uses: actions/cache@v4
-        with:
-          path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('**/cache/requirements.txt') }}
-          restore-keys: ${{ runner.os }}-pip-
-      - name: Install dependencies
-        run: python -m pip install -r cache/requirements.txt
+
       - name: Update README file
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           USER_NAME: ${{ secrets.USER_NAME }}
-        run: python today.py
+        run: python3 today.py
+
       - name: Commit
         run: |-
-          git add .
-          git diff
+          git add dark_mode.svg light_mode.svg cache
+          git diff --cached --quiet && exit 0
+          git diff --cached
           git config --global user.email "github-actions-bot@darkguyaiman.github.io"
           git config --global user.name "Darkguyaiman/GitHub-Actions-Bot"
-          git commit -m "Updated README" -a || echo "No changes to commit"
+          git commit -m "Updated README"
           git push
