@@ -24,6 +24,8 @@ QUERY_COUNT = {
     "loc_query": 0,
     "recursive_loc": 0,
 }
+RETRYABLE_HTTP_CODES = {502, 503, 504}
+GITHUB_GRAPHQL_MAX_ATTEMPTS = 4
 
 
 def format_plural(unit):
@@ -62,22 +64,42 @@ def daily_readme(birthday):
 
 
 def github_graphql(func_name, query, variables):
-    query_count(func_name)
     payload = json.dumps({"query": query, "variables": variables}).encode("utf-8")
-    request = urllib.request.Request(
-        GITHUB_GRAPHQL_URL,
-        data=payload,
-        headers=HEADERS,
-        method="POST",
-    )
-    try:
-        with urllib.request.urlopen(request, timeout=30) as response:
-            body = response.read().decode("utf-8")
-    except urllib.error.HTTPError as exc:
-        body = exc.read().decode("utf-8", errors="replace")
-        raise RuntimeError(
-            f"{func_name} failed with HTTP {exc.code}: {body}; query counts: {QUERY_COUNT}"
-        ) from exc
+    last_error = None
+    for attempt in range(1, GITHUB_GRAPHQL_MAX_ATTEMPTS + 1):
+        query_count(func_name)
+        request = urllib.request.Request(
+            GITHUB_GRAPHQL_URL,
+            data=payload,
+            headers=HEADERS,
+            method="POST",
+        )
+        try:
+            with urllib.request.urlopen(request, timeout=30) as response:
+                body = response.read().decode("utf-8")
+            break
+        except urllib.error.HTTPError as exc:
+            body = exc.read().decode("utf-8", errors="replace")
+            if exc.code not in RETRYABLE_HTTP_CODES or attempt == GITHUB_GRAPHQL_MAX_ATTEMPTS:
+                raise RuntimeError(
+                    f"{func_name} failed with HTTP {exc.code} after {attempt} attempt"
+                    f"{format_plural(attempt)}: {body}; query counts: {QUERY_COUNT}"
+                ) from exc
+            last_error = f"HTTP {exc.code}: {body}"
+        except urllib.error.URLError as exc:
+            if attempt == GITHUB_GRAPHQL_MAX_ATTEMPTS:
+                raise RuntimeError(
+                    f"{func_name} failed after {attempt} attempt{format_plural(attempt)}: "
+                    f"{exc.reason}; query counts: {QUERY_COUNT}"
+                ) from exc
+            last_error = str(exc.reason)
+
+        delay = 2 ** (attempt - 1)
+        print(
+            f"{func_name} attempt {attempt} failed ({last_error}); "
+            f"retrying in {delay}s..."
+        )
+        time.sleep(delay)
 
     parsed = json.loads(body)
     if parsed.get("errors"):
