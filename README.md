@@ -1,8 +1,8 @@
 <div align="center">
   <a href="https://github.com/Darkguyaiman/Darkguyaiman">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Darkguyaiman/Darkguyaiman/main/dark_mode.svg?v=30519970065">
-      <img alt="Mohamed Aiman's GitHub Profile README" src="https://raw.githubusercontent.com/Darkguyaiman/Darkguyaiman/main/light_mode.svg?v=30519970065">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Darkguyaiman/Darkguyaiman/main/dark_mode.svg?v=30610825370">
+      <img alt="Mohamed Aiman's GitHub Profile README" src="https://raw.githubusercontent.com/Darkguyaiman/Darkguyaiman/main/light_mode.svg?v=30610825370">
     </picture>
   </a>
 
