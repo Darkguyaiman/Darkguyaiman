@@ -417,13 +417,15 @@ def justify_format(root, element_id, new_text, length=0):
         dot_string = {0: "", 1: " ", 2: ". "}[just_len]
     else:
         dot_string = " " + ("." * just_len) + " "
-    find_and_replace(root, f"{element_id}_dots", dot_string)
+    find_and_replace(root, f"{element_id}_dots", dot_string, required=False)
 
 
-def find_and_replace(root, element_id, new_text):
+def find_and_replace(root, element_id, new_text, required=True):
     element = root.find(f".//*[@id='{element_id}']")
     if element is None:
-        raise RuntimeError(f"SVG element id='{element_id}' was not found")
+        if required:
+            raise RuntimeError(f"SVG element id='{element_id}' was not found")
+        return
     element.text = new_text
 
 
