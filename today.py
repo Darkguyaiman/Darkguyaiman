@@ -422,8 +422,9 @@ def justify_format(root, element_id, new_text, length=0):
 
 def find_and_replace(root, element_id, new_text):
     element = root.find(f".//*[@id='{element_id}']")
-    if element is not None:
-        element.text = new_text
+    if element is None:
+        raise RuntimeError(f"SVG element id='{element_id}' was not found")
+    element.text = new_text
 
 
 def commit_counter(comment_size):
@@ -472,6 +473,16 @@ if __name__ == "__main__":
 
     streak_data = f"{overview['streak']} day{format_plural(overview['streak'])}"
     formatted_loc = [f"{value:,}" for value in total_loc[:-1]]
+    print("Updating SVG stats:")
+    print(f"   uptime:     {age_data}")
+    print(f"   commits:    {commit_data:,}")
+    print(f"   streak:     {streak_data}")
+    print(f"   repos:      {overview['repos']} (contributed {overview['contributed_repos']})")
+    print(f"   followers:  {overview['followers']}")
+    print(
+        f"   loc:        {formatted_loc[2]} "
+        f"({formatted_loc[0]}++, {formatted_loc[1]}--)"
+    )
     svg_overwrite(
         "dark_mode.svg",
         age_data,
@@ -499,3 +510,4 @@ if __name__ == "__main__":
     print(f"Total GitHub GraphQL API calls: {sum(QUERY_COUNT.values()):>3}")
     for funct_name, count in QUERY_COUNT.items():
         print(f"   {funct_name + ':':<25} {count:>6}")
+

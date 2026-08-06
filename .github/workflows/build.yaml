@@ -16,7 +16,7 @@ on:
 
 concurrency:
   group: readme-build-${{ github.ref }}
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -29,7 +29,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 1
+          fetch-depth: 0
           token: ${{ secrets.ACCESS_TOKEN }}
 
       - name: Update README file
@@ -46,4 +46,5 @@ jobs:
           git config --global user.email "github-actions-bot@darkguyaiman.github.io"
           git config --global user.name "Darkguyaiman/GitHub-Actions-Bot"
           git commit -m "Updated README"
+          git pull --rebase origin main
           git push
